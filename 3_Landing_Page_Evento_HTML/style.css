@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    background: #29FF70;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: #202020;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.speakers {
+    text-align: center; /* Centraliza todo o conteúdo na seção speakers */
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.speaker-card {
+    display: inline-block; /* Permite que o card seja centralizado usando text-align no container pai */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Define a largura do card */
+}
+
+.speaker-card img {
+    width: 100%; /* Faz a imagem cobrir a largura do card */
+    height: auto;
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+}
+
+.speaker-card h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.speaker-card p {
+    color: #666;
+    font-size: 0.9em;
+}
+
